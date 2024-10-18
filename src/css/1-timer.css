@@ -1,0 +1,22 @@
+@import url('./reset.css');
+
+.back {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field .value {
+  font-size: 24px;
+}

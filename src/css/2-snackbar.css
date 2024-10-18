@@ -1,0 +1,19 @@
+@import url('./reset.css');
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+[name='delay'] {
+  display: block;
+  margin-top: 3px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+}
